@@ -1,0 +1,20 @@
+-de la linea 1 a la 3 importamos tkinter que es la libreria para crear interfaces graficas
+-de la linea 6 a la 9 definimos nuestra ventana principal, agregandole dimensiones con .geometry, titulo con .title y un icono.
+-en la linea 12 a la 13 definimos una funcion que sirve para validar si los datos que se estan ingresando son de tipo numerico o alfanumerico
+-en la linea 16 creamos el frame de nuestra pagina principal
+- en la linea 19 y 20 creamos variables para el ancho y alto de los label
+- de la linea 24 a la 46 creamos los label y entradas para nuestros datos, son 5 y cada uno tiene un formato de ubicacion por
+medio de la implementacion de .grid() que nos sirve para ordenar filas y columnas
+-de la 48 a la 53 definimos una variable clientes que guardara los datos de los campos de entradas
+-de la linea 58 a la 72 definimos una funcion para registrar los los datos de los campos en la variable previamente definida
+con condicionales para verificar si el id ya se habia introducido previamente, de lo contrario se muestra un mensaje de error
+-de la linea 74 a la 142 definimos las funciones que nos van a permitir abrir ventanas haciendo click en los botones, estas contienen elementos de tkinter
+y a su vez variables globales para ser utilizadas en todo el programa
+- de la linea 145 a la 155 definimos una funcion para cuando se haga click en el boton consultar, se verifique si el id a consultar fue registrado,
+para luego mostrar los datos del cliente
+-de la linea 159 a la 188 definimos una funcion para transferir dinero de un cliente a otro, verificando si los id estan registrados y si el monto a transferir
+no excede el de la cuenta a debitar, resta el monto al id a debitar y se lo suma al id a abonar
+- de la linea 190 a la 204 tenemos una funcion para retirar dinero, que verifica el si el id fue registrado y si el monto a retirar no excede el de la cuenta.
+ademas de restar el monto retirado al monto de la cuenta
+- de la 208 a 211 definimos los botones de la ventana principal, ademas de darles formato en el ventana y agregarles los comandos de las funciones
+-con la linea 214 finaliza el programa y se encuentra el metodo mainloop() que mantiene el programa activo
